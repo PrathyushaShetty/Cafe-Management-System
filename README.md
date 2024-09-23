@@ -32,10 +32,10 @@ This system is designed to help cafes handle their daily operations more effecti
 - **Backend:**
   - Java
   - Spring Boot (for REST APIs)
-  - JPA & Hibernate (for ORM and database interactions)
+  - JPA & Hibernate 
   
 - **Frontend:**
-  - HTML, CSS (for basic UI)
+  - HTML, CSS
   
 - **Database:**
   - MySQL
@@ -50,14 +50,7 @@ This system is designed to help cafes handle their daily operations more effecti
      \`\`\`sql
      CREATE DATABASE cafedata;
      \`\`\`
- **Configure the MySQL database**:
-   Update the `application.properties` file in the `src/main/resources` directory with your MySQL username and password:
-   \`\`\`properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/cafedata?createDatabaseIfNotExist=true
-   spring.datasource.username=YOUR_MYSQL_USERNAME
-   spring.datasource.password=YOUR_MYSQL_PASSWORD
-   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-   \`\`\`
+
 **Run the application**:
    You can run the application using Maven or from your IDE:
    \`\`\`bash
